@@ -5,18 +5,18 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
-        curso1.setTitulo("Curso Java");
-        curso1.setDescricao("Descrição curso Java");
-        curso1.setCargaHoraria(8);
+        curso1.setTitulo("Curso Java Básico");
+        curso1.setDescricao("O Java é uma linguagem de programação orientada a objetos e é uma das linguagens mais utilizadas atualmente");
+        curso1.setCargaHoraria(30);
 
         Curso curso2 = new Curso();
-        curso2.setTitulo("Curso JS");
-        curso2.setDescricao("Descrição curso JS");
-        curso2.setCargaHoraria(4);
+        curso2.setTitulo("Curso MySQL");
+        curso2.setDescricao("Aprendendo a usar um gerenciador de Banco de Dados");
+        curso2.setCargaHoraria(24);
 
         Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("Mentoria de Java");
-        mentoria.setDescricao("Descrição mentoria Java");
+        mentoria.setTitulo("Mentoria de Collections");
+        mentoria.setDescricao("Descrição mentoria Collections");
         mentoria.setData(LocalDate.now());
 
         System.out.println(curso1);
@@ -39,6 +39,7 @@ public class Main {
         System.out.println("Conteúdos Concluídos Graciele:" + devGraciele.getConteudosConcluidos());
         System.out.println("XP: " + devGraciele.calcularTotalXp());
 
+        System.out.println("-------------------------------------------------------");
 
         Dev devAndre = new Dev();
         devAndre.setNome("André");
@@ -49,5 +50,6 @@ public class Main {
         System.out.println("-");
         System.out.println("Conteúdos Concluídos André:" + devAndre.getConteudosConcluidos());
         System.out.println("Conteúdos Inscritos André:" + devAndre.getConteudosInscritos());
+        System.out.println("XP: " + devAndre.calcularTotalXp());
     }
 }
