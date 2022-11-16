@@ -1,3 +1,3 @@
-# DESAFIO de POO do Botcamp da DIO
+# DESAFIO de POO do Bootcamp da DIO
 
-### Praticando Orientação Orientada a Objetos
+### Praticando Programação Orientada a Objetos
